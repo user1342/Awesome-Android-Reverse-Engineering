@@ -1,335 +1,76 @@
-# Awesome-Repo-Template [![Awesome](https://awesome.re/badge.svg)](https://github.com/MarketingPipeline/Awesome-Repo-Template/)
-
-<a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/">
-<img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=Awesome%20Repo%-Template&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily%20setup%20your%20next%20repo!&descAlignY=60&descAlign=50"></img></a>
+# Awesome Android Reverse Engineering (RE) [![Awesome](https://awesome.re/badge.svg)](https://github.com/MarketingPipeline/Awesome-Repo-Template/)
 
 <p align="center">
-  <b>A awesome repo template to kick-start your next project</b>
-
-  <br>
-  <small> <b><i>Show your support!</i> </b></small>
-  <br>
-   <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template">
-    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Awesome-Repo-Template.svg?style=social&label=Star">
+    <img width=100% src="assets/cover.png">
   </a>
-  <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/fork">
-    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Awesome-Repo-Template.svg?style=social&label=Fork">
-  </a>
-   </p>  
-
-
-## Features:
-
-- A configurable workflow action to:  
-  - update all links with your own with EASE!
-  - update Code Of Conduct E-mail with your own!
-  - update Security Policy E-mail with your own!
-  - download files & folder from another GitHub Repo
-  - compress / optimize all images in repo!
-  - generate a Markdown styled [index file](index.html) with SEO details!
-  - generate a table of contents in your README
-  - generate a star-gazer metrics SVG image
-- Time Saving Files:
-  - [Pull request template](.github/pull_request_template.md)
-  - Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.yaml) and
-    [feature requests](.github/ISSUE_TEMPLATE/feature_request.yaml)
-  - [Contributor guidelines](.github/CONTRIBUTING.md)
-  - [Code Owners](.github/CODEOWNERS)
-  - [Code of Conduct](.github/CODE_OF_CONDUCT.md)
-  - [Change-log](.github/CHANGE_LOG.md)
-  - [To-Do list](.github/TO_DO.md)
-  - [Security Policy](.github/SECURITY.md)
-  - [README](README.md)
-  - [License file](LICENSE) 
-   - GitHub Bot Files
-       -  [config.yml](/.github/config.yml) file to modify multiple bot's behaviours.
-       -  [issue_label_bot.yaml](/.github/issue_label_bot.yaml) file to use the issue adder GitHub bot. [Activate it or check its documentation](https://github.com/marketplace/issue-label-bot).
-       -  [settings.yml](/.github/settings.yml) file to use the popular settings GitHub bot. [Activate it or check its documentation](https://probot.github.io/apps/settings/).
-
-
-
-## Example and Usage
-
-
-
-
-	
- <br>
-<details><summary>How to use this <b>template</b>:</summary>
- <br>		
- 
- To run any of these tasks you MUST be in the <b>Actions section</b>
- 
- <details><summary>How to find the <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/actions"><b>Action</b></a></summary>
- 
-<a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/actions"> ![image](https://user-images.githubusercontent.com/86180097/177446180-b71e50d1-df9d-4ef8-8d78-91184702cff0.png) </a>
-
-</details>	
-
-<br>	 
-<br>	 
-	
-<details><summary>How to replace all <b>links</b> with your own:</summary>
-<br>	
-	
-Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "REPLACE_TEXT_WITH" - to your username & repo name like the following example 
-
-       MyUserName/My-Repo-Name
-
-And run the Repo Generator in Actions - set "Update all links" to <code>checked</code>
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-
-<br>	 
-<br>	 
-	
-<details><summary>How to replace <b>e-mail</b> in <a href="CODE_OF_CONDUCT.md">Code of Conduct</a> with your own:</summary>
-<br>	
-	
-Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "EMAIL" - to your e-mail address like the following example. 
-
-       hello_world@github.com
-
-And run the Repo Generator in Actions- set "Update Code Of Conduct Info" to <code>checked</code>
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-<br>	 
-<br>	 
-	
-<details><summary>How to replace <b>e-mail</b> in <a href=".github/SECURITY.md">Security Policy</a> with your own:</summary>
-<br>	
-	
-Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "EMAIL" - to your e-mail address like the following example. 
-
-       hello_world@github.com
-
-And run the Repo Generator in Actions- set "Update Security Info" to <code>checked</code>
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-
-<br>	 
-<br>	 
-	
-<details><summary>How to <b>download</b>  file(s) / folder(s) from another GitHub repo</summary>
-<br>	
-	
-<br>
-<h3> WARNING</h3>
-files downloaded from a repo containing the same name in your current repo will be OVER-WRITTEN.
-<br> <br> <br> <br> 
-	
-In the Repo Generator Actions- set "Download a file or folder from a GitHub Repo" to a GitHub file path or folder.
-
-
-Example(s)
-
-
-To download a <b>single file</b>:
-
-     https://github.com/Repo-Owner-UserName/Repo-Name/blob/master/README.md
-
-
-To download a specific <b>folder</b>:
-
-     https://github.com/Repo-Owner-UserName/Repo-Name/blob/master/Folder-Name
-     
- 
-
-To download all files in a repo <b>folder</b>:
-
-     https://github.com/Repo-Owner-UserName/Repo-Name/blob/master/
-     
-     
-
-Note: File's will be placed into main repo path. 
-
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-
-<br>	 
-<br>	 
-	
-<details><summary>How to generate a <b>index.html</b> file</summary>
-<br>	
-	
-	
-A index.html file will be produced from your README content.
-
-SEO details such as Title, Description & OG images etc are auto-produced using your Repo details.
-
-<b>Note</b> Your README content will be rendered in Github Flavored Markdown using our tool [Markdown-Tag: Add Markdown to any HTML using a <md> tag](https://github.com/MarketingPipeline/Markdown-Tag)
-
-Go to the Repo Generator in Actions- set "Generate Index File" to <code>checked</code>
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-<br>	 
-<br>	 
-	
-<details><summary>How to <b>compress / optimize</b> images in repo</summary>
-<br>	
-	
-<b><i>Note:</b></i> All images in repo will be compressed / optimized (SVG's are NOT supported)
-
-Go to the Repo Generator in Actions- set "Compress / Optimize Images" to <code>checked</code>
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
- <br>		
- 
-	
-<br>	 
-<br>	 
-	
-<details><summary>How to generate <b>Table Of Contents</b>:</summary>
-<br>	
-To generate tables of contents automatically use anywhere in your README.md file a comment like so
-
-   
-&lt;!-- toc -->
-
-&lt;!-- tocstop -->
-
-
-And when running the Repo Generator in Actions - set "Generate Table Of Contents" to <code>checked</code>
-
-
-<b><i>WARNING:</i></b> Only 1 table of contents can be generated in a README - if you use more than one you WILL face problems. 
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-
-
- <br>		
- 
-	
-<br>	 
-<br>	 
-	
-<details><summary>How to Generate a <b>Metrics Image</b>:</summary>
-<br>	
- 
-Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set "Generate Metrics Image File" to <code>checked</code> 
-
-You will have an image generated that looks like this!
-
-<img src="stargazers-metrics.svg"></img>
-
-It will be placed in the main repo under the filename <code>stargazers-metrics.svg</code> 
-
-<i>Note:</i> if someone knows how to change this please make a pull request with the image placed to .github folder!
-
-
- <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-
-
-<br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>		
-</details>
-	
-<br>	 
-	
-<details><summary>Shield.io Buttons:</summary>
-<br>
-
-<!--Copy & paste whatever buttons you need!-->
-
-_Repo metadata_
-
-	
-[![Github license](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template.svg "Github license")](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/master/LICENSE)
-[![Open issues](https://img.shields.io/github/issues/MarketingPipeline/Awesome-Repo-Template.svg "Open issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues)
-[![Closed issues](https://img.shields.io/github/issues-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
-[![Open Pull Requests](https://img.shields.io/github/issues-pr/MarketingPipeline/Awesome-Repo-Template.svg "Open Pull Requests")](https://github.com/MarketingPipeline/Awesome-Repo-Template/pulls)
-[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed Pull Requests")](https://github.com/MarketingPipeline/Awesome-Repo-Template/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/MarketingPipeline/Awesome-Repo-Template.svg "Commit activity")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/commit-activity)
-[![GitHub contributors](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template.svg "Github contributors")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors)
-[![Last commit](https://img.shields.io/github/last-commit/MarketingPipeline/Awesome-Repo-Template.svg "Last commit")](https://github.com/MarketingPipeline/Awesome-Repo-Template/commits/master)
-[![GitHub tag](https://img.shields.io/github/tag/MarketingPipeline/Awesome-Repo-Template?include_prereleases=&sort=semver&color=blue)](https://github.com/MarketingPipeline/Awesome-Repo-Template/releases/)
-
-
-
-_Social buttons_
-
-[![MarketingPipeline - Awesome-Repo-Template](https://img.shields.io/static/v1?label=MarketingPipeline&message=Awesome-Repo-Template&color=blue&logo=github)](https://github.com/MarketingPipeline/Awesome-Repo-Template "Go to GitHub repo")
-[![stars - Awesome-Repo-Template](https://img.shields.io/github/stars/MarketingPipeline/Awesome-Repo-Template?style=social)](https://github.com/MarketingPipeline/Awesome-Repo-Template)
-[![forks - Awesome-Repo-Template](https://img.shields.io/github/forks/MarketingPipeline/Awesome-Repo-Template?style=social)](https://github.com/MarketingPipeline/Awesome-Repo-Template)
-
-
-
-_Call-to-Action buttons_
-
-
-
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MarketingPipeline/Awesome-Repo-Template/generate)
-
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://marketingpip.github.io/Awesome-Repo-Template/)
-
-
-_Documentation button_
-
-
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/README.MD "Go to project documentation")
-
-
-_Custom button_
-
-<img alt="Custom Shield.io Button" src="https://img.shields.io/badge/Custom-Button-blue.svg?style=flat-square"></img>	
-
-
-<br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
-</details>
-	
-<br>	 
-	 
-
-<details><summary>Auto Generated Table Of Contents <b> Demo</b>:</summary>
-<br>
-<!------- Table Of Contents Will Auto Generate In Side Of Here ---- >
-
-<!-- toc -->
-
-- [Features:](#features)
-- [Example and Usage](#example-and-usage)
-- [Contributing <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors"> ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template) </a>](#contributing-a-hrefhttpsgithubcommarketingpipelineawesome-repo-templategraphscontributors-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template-a)
-- [License <a href="LICENSE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template) </a>](#license-a-hreflicense-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template-a)
-
-<!-- tocstop -->
-
-</details>
-	
- 
-	
-<br>	 
-<details>
-<summary> How to setup GitHub bots </summary>
-
-<br>
-These are bots that are prepared and configured for this template. They need to be activated to properly work.
-
-<br>
-<br>
-
-1. The `issue_label_bot.yaml` file depends on the **issue label bot** [Activate it or check its documentation](https://github.com/marketplace/issue-label-bot)(✓ highly recommended).
-2. The `settings.yml` file depends on the **settings label bot** [Activate it or check its documentation](https://probot.github.io/apps/settings/) (optional).
-3. The `config.yml` file depends on the bot **welcome bot** [Activate it or check its documentation](https://probot.github.io/apps/welcome/) and [to-do bot](https://probot.github.io/apps/todo/) (optional).
-
-</details>
-
-
-
-
-
-## Contributing <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors"> ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template) </a>
-
-Want to improve this template? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome repo template!
-
-See also the list of
-[contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
-participate in this project.
+</p>
+
+<p align="center">
+  <b>A curated list of awesome Android Reverse Engineering training, resources, and tools.</b>
+
+
+# How to Use
+Awesome-Android-Reverse-Engineering is an amazing list for people who need a certain feature on their app, so the best ways to use are:
+
+Simply press command + F to search for a keyword
+Go through our Content Menu
+
+# Contents
+- [Training](#Training "Training")
+  -  [Courses](#Courses "Courses")
+  - [Books](#Books "Books")
+- [Tools](#Tools "Tools")
+  - [Static Analysis Tools](#Static Analysis Tools "Static Analysis Tools")
+  - [Dynamic Analysis Tools](#Dynamic Analysis Tools "Dynamic Analysis Tools")
+  - [Decompilers](#Decompilers "Decompilers")
+- [Resources](#Resources "Resources")
+
+## Training
+### Courses
+- [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone, a well-known expert in the field.
+
+### Books
+- [Android Internals: A Confectioner's Cookbook](http://newandroidbook.com/ "Android Internals: A Confectioner's Cookbook") - An in-depth exploration of the inner-workings of Android: In Volume I, we take the perspective of the Power User as we delve into the foundations of Android, filesystems, partitions, boot process, native daemons and services.
+
+## Tools
+### Static Analysis Tools
+- [QARK](https://github.com/linkedin/qark "QARK") - A open-source tool developed by LinkedIn for automatic Android app vulnerability scanning, including identifying potential security issues such as SQL injection, insecure data storage, and more.
+- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF "MobSF") - An open-source mobile app security testing framework that supports static and dynamic analysis of Android apps for vulnerabilities and privacy issues.
+- [AndroBugs Framework](https://github.com/AndroBugs/AndroBugs_Framework "AndroBugs Framework") - An open-source framework for analyzing and scanning Android apps for security issues, including static and dynamic analysis capabilities.
+
+### Dynamic Analysis Tools
+- [Frida](https://frida.re/ "Frida") - A dynamic instrumentation toolkit for Android apps that allows for runtime manipulation and analysis of app behavior.
+- Xposed Framework - A powerful framework for hooking and modifying the behavior of Android apps at runtime, commonly used for reverse engineering and analysis.
+- [Objection](https://github.com/sensepost/objection "Objection") - A runtime mobile exploration tool for Android that provides various features for analyzing, manipulating, and bypassing app security controls.
+- [Burp Suite](https://portswigger.net/burp "Burp Suite") - A popular commercial web security testing tool that can be used for analyzing network traffic of Android apps for potential security vulnerabilities.
+- [Wireshark](https://www.wireshark.org/ "Wireshark") - A widely used open-source network protocol analyzer that can capture, analyze, and dissect network traffic generated by Android apps for security analysis.
+- [SSLsplit](https://github.com/droe/sslsplit "SSLsplit") - An open-source tool for intercepting and manipulating SSL/TLS encrypted traffic, which can be used for analyzing SSL/TLS communication in Android apps.
+- [Drozer](https://github.com/WithSecureLabs/drozer "Drozer") - An open-source framework for Android security testing that provides a comprehensive set of tools for dynamic analysis, including intercepting, modifying, and analyzing app traffic.
+- [MITMProxy](https://mitmproxy.org/ "MITMProxy") - An open-source man-in-the-middle proxy that allows for intercepting and analyzing network traffic generated by Android apps for security testing and analysis.
+
+### Decompilers
+- [JADX](https://github.com/skylot/jadx "JADX") - An open-source tool for decompiling and analyzing Android APK files into Java source code for reverse engineering and analysis.
+- [Procyon](https://github.com/mstrobel/procyon "Procyon") - An open-source Java decompiler that can decompile Android APK files into readable Java source code for reverse engineering and analysis.
+- [Cfr](https://github.com/leibnitz27/cfr "Cfr") - An open-source Java decompiler that supports decompilation of Android APK files into Java source code, including support for newer Java language features.
+- [FernFlower](https://github.com/fesh0r/fernflower "FernFlower") - An open-source Java decompiler that supports decompilation of Android APK files into Java source code, including support for deobfuscation and other advanced features.
+- [Apktool](https://ibotpeaches.github.io/Apktool/ "Apktool") - A popular open-source tool for decompiling and recompiling Android APK files.
+- [DEX2JAR](https://github.com/pxb1988/dex2jar "DEX2JAR") - A tool for converting Android DEX files to JAR files, which can be further analyzed using Java decompilers.
+-[ IDA Pro](https://hex-rays.com/ida-pro/ " IDA Pro") - A powerful commercial disassembler and debugger for analyzing Android native code.
+- [Ghidra](https://ghidra-sre.org/ "Ghidra") - A free and open-source software reverse engineering (SRE) framework developed by the National Security Agency (NSA) that supports Android analysis.
+- JEB Decompiler - A commercial decompiler for Android apps that can decompile APK files into Java source code for analysis.
+- [Radare2](https://rada.re/n/ "Radare2") - A free and open-source reverse engineering framework that supports Android analysis, including disassembly, debugging, and binary analysis.
+- [Androguard](https://github.com/androguard/androguard "Androguard") - An open-source tool for analyzing and reverse engineering Android apps, including decompiling APK files, analyzing Dalvik bytecode, and more.
+
+## Resources
+- [Android Security Documentation](https://source.android.com/docs/security "Android Security Documentation") - Official documentation from Google on Android security, including topics related to reverse engineering.
+- [Android Reverse Engineering Challenges ](https://github.com/apsdehal/awesome-ctf#reverse-engineering "Android Reverse Engineering Challenges ")- A curated list of Android reverse engineering challenges and CTFs (Capture The Flag) for practice.
+
+## Contributing 
+Your contributions are always welcome! Please read the contribution guidelines first. We  follow the Contributor Covenant Code of Conduct. Please make sure to review. and adhere to this code of conduct when contributing.
 
 ## License <a href="LICENSE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template) </a>
 
-This project is licensed under the MIT License - see the
-[LICENSE.md](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/main/LICENSE) file for
-details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
 
