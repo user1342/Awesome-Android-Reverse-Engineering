@@ -1,0 +1,61 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the issue here.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What type of browser are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-systems
+    attributes:
+      label: What type of Operating System are you seeing the problem on?
+      multiple: true
+      options:
+        - Linux
+        - Windows
+        - Mac
+        - Other
+    validations:
+      required: true
+      
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Code to produce this issue.
+      description: Please copy and paste any relevant code to re-produce this issue. And the version of the browser you are using. 
+      render: shell

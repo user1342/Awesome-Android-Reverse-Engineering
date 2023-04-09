@@ -1,0 +1,136 @@
+name: Repo Generator
+
+on:
+   workflow_dispatch:
+     inputs:
+       Replace_Links_In_Markdown:
+         description: 'Update all links'
+         type: boolean
+         required: false
+       Update_Code_Of_Conduct_EMAIL:
+         description: 'Update Code Of Conduct Email'
+         type: boolean
+         required: false
+       Update_Security_Policy_EMAIL:
+         description: 'Update Security Policy Email'
+         type: boolean
+         required: false
+       Compress_Images:
+         description: 'Compress / Optimize Images'
+         type: boolean
+         required: false        
+       Generate_Table_Of_Contents:
+        description: 'Generate Table Of Contents'
+        type: boolean
+        required: false
+       Generate_Metrics_File:
+        description: 'Generate Metrics Image File'
+        type: boolean
+        required: false
+       Generate_Index_File:
+        description: 'Generate Index File'
+        type: boolean
+        required: false
+       Download_Files_Or_Folder:
+        description: 'Download a file or folder from a GitHub Repo'
+        required: False
+        default: ''
+
+jobs:
+  Repo_Builder:
+    name: Repo Template Builder
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2   
+      ### Update links in README file
+      - name: Updating links in README content
+        if: ${{  github.event.inputs.Replace_Links_In_Markdown == 'true' }}
+        run: |
+          sudo apt-get install python3
+          python3 .github/py_repo_tools/replace_repo_links.py
+      
+      
+      ### Metric Images
+      
+      - name: Generating Metrics Image
+        if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
+        uses: lowlighter/metrics@v3.24
+        with:
+          filename:  stargazers-metrics.svg
+          filepath: /.github/
+          plugin_stargazers_charts_type: chartist
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+ 
+          
+          base: ""
+          
+          config_octicon: yes
+          
+          plugin_stargazers: yes
+          plugin_contributors: yes
+      
+
+    ##  - name: Move Metrics Image
+      
+      #  if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
+        
+       # run: |
+        #  git mv -f ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
+    
+
+      ### Table Of Contents    
+      - name: Generating Table Of Contents
+        if: ${{  github.event.inputs.Generate_Table_Of_Contents == 'true' }}
+        run: |
+          npx markdown-toc-gen update README.md 
+
+
+      ### Generate Index File   
+      - name: Generating Index File
+        if: ${{  github.event.inputs.Generate_Index_File == 'true' }}
+        run: |
+          sudo apt-get install python3 
+          INPUT_STORE=${{ github.event.repository.url }} python3 .github/py_repo_tools/generate_index_file.py
+    
+
+
+      ### Optimize / Compress Image   
+      - name: Optimizing Images
+        if: ${{  github.event.inputs.Compress_Images == 'true' }}
+        run: |
+          sudo apt-get install python3 python3-pip
+          pip3 install pillow optimize-images
+          optimize-images ./          
+      ### Replace COC E-mail    
+      - name: Updating Code Of Conduct E-Mail
+        if: ${{  github.event.inputs.Update_Code_Of_Conduct_EMAIL == 'true' }}
+        run: |
+          sudo apt-get install python3
+          python3 .github/py_repo_tools/replace_code_of_conduct_info.py
+          
+      ### Replace Security Policy E-mail      
+      - name: Updating Security Policy E-Mail
+        if: ${{  github.event.inputs.Update_Security_Policy_EMAIL == 'true' }}
+        run: |
+          sudo apt-get install python3
+          python3 .github/py_repo_tools/replace_security_policy_email.py        
+          
+          
+      ### Download a file or folder from a GitHub repo    
+      - name: Downloading file / folder from GitHub Repo
+        if: ${{  github.event.inputs.Download_Files_Or_Folder != ''}}
+        run: |
+          chmod +x .github/py_repo_tools/shell_scripts/github_downloader.sh
+          .github/py_repo_tools/shell_scripts/github_downloader.sh ${{  github.event.inputs.Download_Files_Or_Folder}} 
+  
+
+          
+      ### Commit updates (if any)
+      - name: Commiting updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Updated Content"
+          git push
