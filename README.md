@@ -26,7 +26,7 @@
 Awesome-Android-Reverse-Engineering is an amazing list for people who need a certain feature on their app, so the best ways to use are:
 
 
-Simply press ```command + F``` to search for a keyword or go through our Content Menu
+Simply press ```command + F``` to search for a keyword or go through our Content Menu.
 
 
 # Contents
