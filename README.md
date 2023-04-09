@@ -62,18 +62,19 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 ## Tools
 ### Static Analysis Tools
 - [QARK](https://github.com/linkedin/qark "QARK") - An open-source tool developed by LinkedIn for automatic Android app vulnerability scanning, including identifying potential security issues such as SQL injection, insecure data storage, and more.
+- [Quark Engine](https://github.com/quark-engine/quark-engine) - The goal of Quark Script aims to provide an innovative way for mobile security researchers to analyze or pentest the targets.  Based on Quark, we integrate decent tools as Quark Script APIs and make them exchange valuable intelligence to each other. 
 - [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF "MobSF") - An open-source mobile app security testing framework that supports static and dynamic analysis of Android apps for vulnerabilities and privacy issues.
 - [AndroBugs Framework](https://github.com/AndroBugs/AndroBugs_Framework "AndroBugs Framework") - An open-source framework for analysing and scanning Android apps for security issues, including static and dynamic analysis capabilities.
 - [imjtool](http://newandroidbook.com/tools/imjtool.html) - Firmware unpacking tool applicable to the widest variety of vendors and formats.
 - [Android Studio](https://developer.android.com/studio) - Useful if you don’t have a JEB licence and want to open a decompiled (via JADx) app into a proper IDE.
 - [APK Dependency Graph](https://github.com/alexzaitsev/apk-dependency-graph) - An APK class dependency visualizer. Useful for attack surface mapping.
 - [disarm](http://newandroidbook.com/tools/disarm.html) - A simple command line utility that takes as an argument a 32-bit hexadecimal number, and parses it as an ARM-64 instruction, providing the disassembly.
-
+- [COVA](https://github.com/secure-software-engineering/COVA) - COVA is a static analysis tool to compute path constraints based on user-defined APIs.
 
 #### De-Obfuscation
 - [Obfu[DE]scate](https://github.com/user1342/Obfu-DE-Scate) - Obfu[DE]scate is a de-obfuscation tool for Android APKs that uses fuzzy comparison logic to identify similarities between functions, even if they have been renamed as part of obfuscation. It compares two versions of an APK and generates a mapping text file and an interactive HTML file as outputs!
 - [TinySmaliEmulator](https://github.com/amoulu/TinySmaliEmulator) - A minimalist smali emulator that could be used to "decrypt" obfuscated. strings
-
+- [simplify](https://github.com/CalebFenton/simplify) - Android virtual machine and deobfuscator.
 
 ### Dynamic Analysis Tools
 - [Drozer](https://github.com/WithSecureLabs/drozer "Drozer") - An open-source framework for Android security testing that provides a comprehensive set of tools for dynamic analysis, including intercepting, modifying, and analysing app traffic.
@@ -97,9 +98,9 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 
 ### Decompilers
 - [JADX](https://github.com/skylot/jadx "JADX") - An open-source tool for decompiling and analysing Android APK files into Java source code for reverse engineering and analysis.
-- [Procyon](https://github.com/mstrobel/procyon "Procyon") - An open-source Java decompiler that can decompile Android APK files into readable Java source code for reverse engineering and analysis.
+- [Procyon](https://github.com/mstrobel/procyon "Procyon") - Procyon is a suite of Java metaprogramming tools, including a rich reflection API, a LINQ-inspired expression tree API for runtime code generation, and a Java decompiler.
 - [Cfr](https://github.com/leibnitz27/cfr "Cfr") - An open-source Java decompiler that supports decompilation of Android APK files into Java source code, including support for newer Java language features.
-- [FernFlower](https://github.com/fesh0r/fernflower "FernFlower") - An open-source Java decompiler that supports decompilation of Android APK files into Java source code, including support for deobfuscation and other advanced features.
+- [FernFlower](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine "FernFlower") - Fernflower is the first actually working analytical decompiler for Java and probably for a high-level programming language in general. 
 - [Apktool](https://ibotpeaches.github.io/Apktool/ "Apktool") - A popular open-source tool for decompiling and recompiling Android APK files.
 - [DEX2JAR](https://github.com/pxb1988/dex2jar "DEX2JAR") - A tool for converting Android DEX files to JAR files, which can be further analysed using Java decompilers.
 - [JDGui](http://java-decompiler.github.io/) - JD-GUI is a standalone graphical utility that displays Java source codes of “.class” files.
@@ -109,8 +110,9 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 - [Radare2](https://rada.re/n/ "Radare2") - A free and open-source reverse engineering framework that supports Android analysis, including disassembly, debugging, and binary analysis.
 - [Androguard](https://github.com/androguard/androguard "Androguard") - An open-source tool for analysing and reverse engineering Android apps, including decompiling APK files, analysing Dalvik bytecode, and more.
 
-### Machine Learning
+### Malware Analysis 
 - [DroidDetective](https://github.com/user1342/DroidDetective) - A machine learning malware analysis framework for Android apps.
+- [Cuckoo Droid](https://github.com/idanr1986/cuckoodroid-2.0) - CuckooDroid - Automated Android Malware Analysis with Cuckoo Sandbox.
 
 ## Resources
 ### Documentation
