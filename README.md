@@ -15,17 +15,16 @@
 # How to Use
 Awesome-Android-Reverse-Engineering is an amazing list for people who need a certain feature on their app, so the best ways to use are:
 
-Simply press command + F to search for a keyword
-Go through our Content Menu
+Simply press ```command + F``` to search for a keyword or go through our Content Menu
 
 # Contents
 - [Training](#Training "Training")
   -  [Courses](#Courses "Courses")
   - [Books](#Books "Books")
 - [Tools](#Tools "Tools")
-  - [Static Analysis Tools](#Static Analysis Tools "Static Analysis Tools")
-  - [Dynamic Analysis Tools](#Dynamic Analysis Tools "Dynamic Analysis Tools")
-  - [Decompilers](#Decompilers "Decompilers")
+    - [Static Analysis Tools](#Static-Analysis-Tools)
+    - [Dynamic Analysis Tools](#Dynamic-Analysis-Tools)
+    - [Decompilers](#Decompilers "Decompilers")
 - [Resources](#Resources "Resources")
 
 ## Training
@@ -58,7 +57,7 @@ Go through our Content Menu
 - [FernFlower](https://github.com/fesh0r/fernflower "FernFlower") - An open-source Java decompiler that supports decompilation of Android APK files into Java source code, including support for deobfuscation and other advanced features.
 - [Apktool](https://ibotpeaches.github.io/Apktool/ "Apktool") - A popular open-source tool for decompiling and recompiling Android APK files.
 - [DEX2JAR](https://github.com/pxb1988/dex2jar "DEX2JAR") - A tool for converting Android DEX files to JAR files, which can be further analyzed using Java decompilers.
--[ IDA Pro](https://hex-rays.com/ida-pro/ " IDA Pro") - A powerful commercial disassembler and debugger for analyzing Android native code.
+- [ IDA Pro](https://hex-rays.com/ida-pro/ " IDA Pro") - A powerful commercial disassembler and debugger for analyzing Android native code.
 - [Ghidra](https://ghidra-sre.org/ "Ghidra") - A free and open-source software reverse engineering (SRE) framework developed by the National Security Agency (NSA) that supports Android analysis.
 - JEB Decompiler - A commercial decompiler for Android apps that can decompile APK files into Java source code for analysis.
 - [Radare2](https://rada.re/n/ "Radare2") - A free and open-source reverse engineering framework that supports Android analysis, including disassembly, debugging, and binary analysis.
