@@ -7,11 +7,16 @@
 <p align="center">
   <b>A curated list of awesome Android Reverse Engineering training, resources, and tools.</b>
 
+<div align="center">
+
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/MarketingPipeline/Awesome-Repo-Template/)
 ![GitHub contributors](https://img.shields.io/github/contributors/user1342/Awesome-Android-Reverse-Engineering)
 ![GitHub Repo stars](https://img.shields.io/github/stars/user1342/Awesome-Android-Reverse-Engineering?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/user1342/Awesome-Android-Reverse-Engineering?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/user1342/Awesome-Android-Reverse-Engineering)
+
+</div>
+
 # How to Use
 Awesome-Android-Reverse-Engineering is an amazing list for people who need a certain feature on their app, so the best ways to use are:
 
