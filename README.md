@@ -46,7 +46,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 
 ## Training
 ### Courses and Material
-- [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone, a well-known expert in the field.
+- [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from Data Types, Registers, the ARM Instruction Set, Memory Instructions, and more
 - [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
 - [LaurieWired Android Reverse Engineering videos](https://www.youtube.com/@lauriewired) - A YouTube channel focusing on Android reverse engineering.
@@ -73,7 +73,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 
 #### De-Obfuscation
 - [Obfu[DE]scate](https://github.com/user1342/Obfu-DE-Scate) - Obfu[DE]scate is a de-obfuscation tool for Android APKs that uses fuzzy comparison logic to identify similarities between functions, even if they have been renamed as part of obfuscation. It compares two versions of an APK and generates a mapping text file and an interactive HTML file as outputs!
-- [TinySmaliEmulator](https://github.com/amoulu/TinySmaliEmulator) - A minimalist smali emulator that could be used to "decrypt" obfuscated. strings
+- [TinySmaliEmulator](https://github.com/amoulu/TinySmaliEmulator) - A minimalist smali emulator that could be used to "decrypt" obfuscated strings.
 - [simplify](https://github.com/CalebFenton/simplify) - Android virtual machine and deobfuscator.
 
 ### Dynamic Analysis Tools
