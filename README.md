@@ -20,9 +20,6 @@ Go through our Content Menu
   -  [Courses](#Courses "Courses")
   - [Books](#Books "Books")
 - [Tools](#Tools "Tools")
-  - [Static Analysis Tools](#Static Analysis Tools "Static Analysis Tools")
-  - [Dynamic Analysis Tools](#Dynamic Analysis Tools "Dynamic Analysis Tools")
-  - [Decompilers](#Decompilers "Decompilers")
 - [Resources](#Resources "Resources")
 
 ## Training
