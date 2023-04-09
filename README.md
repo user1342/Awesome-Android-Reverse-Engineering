@@ -31,16 +31,16 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 
 # Contents
 - [Training](#Training "Training")
- -  [Courses and Material](#Courses-and-Material "Courses-and-Material")
- - [Books](#Books "Books")
+  - [Courses and Material](#Courses-and-Material "Courses-and-Material")
+  - [Books](#Books "Books")
 - [Tools](#Tools "Tools")
   - [Static Analysis Tools](#Static-Analysis-Tools)
   - [Dynamic Analysis Tools](#Dynamic-Analysis-Tools)
   - [Decompilers](#Decompilers "Decompilers")
   - [Machine Learning](#Machine-Learning)
 - [Resources](#Resources "Resources")
- - [Documentation](#Documentation)
- - [Case Studies](#case-studies)
+  - [Documentation](#Documentation)
+  - [Case Studies](#case-studies)
 - [CTFs and CrackMe's](#CTFs-and-CrackMes)
 
 
