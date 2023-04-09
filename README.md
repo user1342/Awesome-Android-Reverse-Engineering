@@ -23,11 +23,7 @@
 
 
 # How to Use
-Awesome-Android-Reverse-Engineering is an amazing list for people who need a certain feature on their app, so the best ways to use are:
-
-
-Simply press ```command + F``` to search for a keyword or go through our Content Menu.
-
+Awesome-Android-Reverse-Engineering is an amazing list for people who work in taking apart Android applications, systems, or components. Simply press ```command + F``` to search for a keyword or go through our Content Menu.
 
 # Contents
 - [Training](#Training "Training")
