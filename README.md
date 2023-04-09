@@ -53,7 +53,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 - [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications, however, focuses on using Frida to dynamically modify Android games.
 
 
-## Books
+### Books
 - [Android Internals: A Confectioner's Cookbook](http://newandroidbook.com/ "Android Internals: A Confectioner's Cookbook") - An in-depth exploration of the inner-workings of Android: In Volume I, we take the perspective of the Power User as we delve into the foundations of Android, filesystems, partitions, boot process, native daemons and services.
 - [Blue Fox: Arm Assembly Internals and Reverse Engineering](https://www.amazon.co.uk/dp/1119745306) - Provides readers with a solid foundation in Arm assembly internals and reverse-engineering fundamentals as the basis for analysing and securing billions of Arm devices.
 - [Android Software Internals Quick Reference](https://www.amazon.co.uk/Android-Software-Internals-Quick-Reference/dp/1484269136) - This book focuses on easily digestible, useful, and interesting techniques in Java and the Android system. Including: encryption and obfuscation, debugging, and APK extraction.
