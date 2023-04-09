@@ -31,7 +31,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 
 # Contents
 - [Training](#Training "Training")
- -  [Courses and Material](#Courses "Courses-and-Material")
+ -  [Courses and Material](#Courses-and-Material "Courses-and-Material")
  - [Books](#Books "Books")
 - [Tools](#Tools "Tools")
   - [Static Analysis Tools](#Static-Analysis-Tools)
@@ -41,7 +41,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 - [Resources](#Resources "Resources")
  - [Documentation](#Documentation)
  - [Case Studies](#case-studies)
-- [CTFs and CrackMe's](#CTFs-and-CrackMe's)
+- [CTFs and CrackMe's](#CTFs-and-CrackMes)
 
 
 ## Training
@@ -126,7 +126,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 - [In-the-Wild Series: Android Exploits](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-android-exploits.html)
 
 
-## CTFs and CrackMe's
+## CTFs and CrackMes
 - [UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mastg/tree/master/Crackmes) - A set of OWASP Android app Crackme's. These challenges are used as examples throughout the OWASP MASTG. Of course, you can also solve them for fun.
 - [CyberTruckChallenge19](https://github.com/nowsecure/cybertruckchallenge19) - Android security workshop material taught during the CyberTruck Challenge 2019 (Detroit USA).
 - [KGB Messenger](https://github.com/tlamb96/kgb_messenger) - KGB Messenger is an open source CTF practice challenge that aims to help people learn how to reverse engineer Android applications.
