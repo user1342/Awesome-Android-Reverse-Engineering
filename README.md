@@ -133,7 +133,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 - [KGB Messenger](https://github.com/tlamb96/kgb_messenger) - KGB Messenger is an open source CTF practice challenge that aims to help people learn how to reverse engineer Android applications.
 
 ## Contributing
-Your contributions are always welcome! Please read the contribution guidelines first. We  follow the Contributor Covenant Code of Conduct. Please make sure to review. and adhere to this code of conduct when contributing.
+Your contributions are always welcome! Please read the contribution guidelines first. We  follow the Contributor Covenant Code of Conduct. Please make sure to review and adhere to this code of conduct when contributing.
 
 ## Licence <a href="LICENCE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template) </a>
 This project is licensed under the MIT License - see the LICENSE.md file for details.
