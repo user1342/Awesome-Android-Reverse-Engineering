@@ -48,7 +48,7 @@ Simply press ```command + F``` to search for a keyword or go through our Content
 ### Courses and Material
 - [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone, a well-known expert in the field.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from Data Types, Registers, the ARM Instruction Set, Memory Instructions, and more
-- [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering ANdroid malware.
+- [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
 - [LaurieWired Android Reverse Engineering videos](https://www.youtube.com/@lauriewired) - A YouTube channel focusing on Android reverse engineering.
 - [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications, however, focuses on using Frida to dynamically modify Android games.
 
