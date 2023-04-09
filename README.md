@@ -105,6 +105,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - JEB Decompiler - A commercial decompiler for Android apps that can decompile APK files into Java source code for analysis.
 - [Radare2](https://rada.re/n/ "Radare2") - A free and open-source reverse engineering framework that supports Android analysis, including disassembly, debugging, and binary analysis.
 - [Androguard](https://github.com/androguard/androguard "Androguard") - An open-source tool for analysing and reverse engineering Android apps, including decompiling APK files, analysing Dalvik bytecode, and more.
+- [apk2gold](https://github.com/lxdvs/apk2gold) - CLI tool for decompiling Android apps to Java. Doing both resources and Java.
 
 ### Malware Analysis 
 - [DroidDetective](https://github.com/user1342/DroidDetective) - A machine learning malware analysis framework for Android apps.
