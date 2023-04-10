@@ -54,6 +54,8 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [Blue Fox: Arm Assembly Internals and Reverse Engineering](https://www.amazon.co.uk/dp/1119745306) - Provides readers with a solid foundation in Arm assembly internals and reverse-engineering fundamentals as the basis for analysing and securing billions of Arm devices.
 - [Android Software Internals Quick Reference](https://www.amazon.co.uk/Android-Software-Internals-Quick-Reference/dp/1484269136) - This book focuses on easily digestible, useful, and interesting techniques in Java and the Android system. Including: encryption and obfuscation, debugging, and APK extraction.
 - [Mobile Offensive Security Pocket Guide](https://www.amazon.co.uk/Mobile-Offensive-Security-Pocket-Guide/dp/1399921959/ref=sr_1_4) - Focusing on Android and iOS operating systems, the book contains a series of succinct chapters that highlight key information, approaches, and tooling used by mobile penetration testers and offensive security practitioners. 
+- [Android Security Internals](https://nostarch.com/androidsecurity) -  Describing Android security architecture from the bottom up, delving into the implementation of major security-related components and subsystems, like Binder IPC, permissions, cryptographic providers, and device administration.
+- [Android Malware Detection with Machine Learning](https://nostarch.com/androidmalwaredetection) -  Examine the machine-learning techniques used to detect malicious apps, the types of classification models that defenders can use, and the various features of malware specimens that can become input to these models.
 
 ## Tools
 ### Static Analysis Tools
