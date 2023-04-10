@@ -28,6 +28,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 # Contents
 - [Training](#Training "Training")
   - [Courses and Material](#Courses-and-Material "Courses-and-Material")
+  - [Videos](#videos)
   - [Books](#Books "Books")
 - [Tools](#Tools "Tools")
   - [Static Analysis Tools](#Static-Analysis-Tools)
@@ -44,10 +45,12 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 ### Courses and Material
 - [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from Data Types, Registers, the ARM Instruction Set, Memory Instructions, and more
+- [Android Penetration Testing From #TODO](https://www.reverseengineering.courses/course/android-penetration-testing/) - This course will see you develop a baseline knowledge of what is involved in mobile penetration testing along with the specific tools, techniques, and frameworks involved in taking apart and analyzing Android applications.
+
+### Videos
 - [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
 - [LaurieWired Android Reverse Engineering videos](https://www.youtube.com/@lauriewired) - A YouTube channel focusing on Android reverse engineering.
-- [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications, however, focuses on using Frida to dynamically modify Android games.
-
+- [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications and on using Frida to dynamically modify Android games.
 
 ### Books
 - [Android Internals: A Confectioner's Cookbook](http://newandroidbook.com/ "Android Internals: A Confectioner's Cookbook") - An in-depth exploration of the inner-workings of Android: In Volume I, we take the perspective of the Power User as we delve into the foundations of Android, filesystems, partitions, boot process, native daemons and services.
