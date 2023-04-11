@@ -76,6 +76,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [Obfu[DE]scate](https://github.com/user1342/Obfu-DE-Scate) - Obfu[DE]scate is a de-obfuscation tool for Android APKs that uses fuzzy comparison logic to identify similarities between functions, even if they have been renamed as part of obfuscation. It compares two versions of an APK and generates a mapping text file and an interactive HTML file as outputs!
 - [TinySmaliEmulator](https://github.com/amoulu/TinySmaliEmulator) - A minimalist smali emulator that could be used to "decrypt" obfuscated strings.
 - [simplify](https://github.com/CalebFenton/simplify) - Android virtual machine and deobfuscator.
+- [deoptfuscator](https://github.com/Gyoonus/deoptfuscator) - Deoptfuscator is a tool for deobfuscating Android applications that have been transformed using control-flow obfuscation mechanisms.
 
 ### Dynamic Analysis Tools
 - [Drozer](https://github.com/WithSecureLabs/drozer "Drozer") - An open-source framework for Android security testing that provides a comprehensive set of tools for dynamic analysis, including intercepting, modifying, and analysing app traffic.
