@@ -115,6 +115,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [AndroidProjectCreator](https://github.com/ThisIsLibra/AndroidProjectCreator) - Convert an APK to an Android Studio Project using multiple open-source decompilers.
 - [APK Studio](https://github.com/vaibhavpandeyvpz/apkstudio) - Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.
 - [show-java](https://github.com/niranjan94/show-java) - An APK (android application), JAR & Dex decompiler for android.
+- [APKLab](https://marketplace.visualstudio.com/items?itemName=Surendrajat.apklab) - APKLab seamlessly integrates Quark-Engine, Apktool, Jadx, uber-apk-signer, apk-mitm and more to VS Code.
 
 ### Malware Analysis 
 - [DroidDetective](https://github.com/user1342/DroidDetective) - A machine learning malware analysis framework for Android apps.
