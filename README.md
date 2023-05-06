@@ -71,6 +71,8 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [APK Dependency Graph](https://github.com/alexzaitsev/apk-dependency-graph) - An APK class dependency visualizer. Useful for attack surface mapping.
 - [disarm](http://newandroidbook.com/tools/disarm.html) - A simple command line utility that takes as an argument a 32-bit hexadecimal number, and parses it as an ARM-64 instruction, providing the disassembly.
 - [COVA](https://github.com/secure-software-engineering/COVA) - COVA is a static analysis tool to compute path constraints based on user-defined APIs.
+- [DIS{integrity}](https://github.com/user1342/DISintegrity) - A tool for analysing Android APKs and extracting root, integrity, and tamper detection checks.
+
 
 #### De-Obfuscation
 - [Obfu[DE]scate](https://github.com/user1342/Obfu-DE-Scate) - Obfu[DE]scate is a de-obfuscation tool for Android APKs that uses fuzzy comparison logic to identify similarities between functions, even if they have been renamed as part of obfuscation. It compares two versions of an APK and generates a mapping text file and an interactive HTML file as outputs!
