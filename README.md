@@ -147,6 +147,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [LADB](https://github.com/tytydraco/LADB) - A local ADB shell for Android!
 - [Broken Droid Factory](https://github.com/user1342/Broken-Droid-Factory) - BDF is a Python tool designed to spin-up pseudo random vulnerable Android applications for training when it comes to vulnerability research, ethical hacking, and pen testing on Android apps.
 - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer) - A cli tool that helps signing and zip aligning single or multiple Android application packages (APKs) with either debug or provided release certificates. It supports v1, v2 and v3 Android signing scheme has an embedded debug keystore and auto verifies after signing.
+- [RUNIC tamper detection demo](https://github.com/user1342/RUNIC) - Designed to serve as a parallel for understanding more complex Android tamper detection and integrity systems such as Google Play SafetyNet and Huawei Safety Detect.
 
 ## Contributing
 Your contributions are always welcome! Please read the contribution guidelines first. We  follow the Contributor Covenant Code of Conduct. Please make sure to review and adhere to this code of conduct when contributing.
