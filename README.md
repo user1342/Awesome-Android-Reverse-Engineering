@@ -23,7 +23,7 @@
 
 
 # How to Use
-Awesome-Android-Reverse-Engineering is an amazing list for people who work in taking apart Android applications, systems, or components. Simply press ```ctrl + F``` to search for a keyword or go through our Content Menu.
+Awesome-Android-Reverse-Engineering is an amazing list for people who work in taking apart Android applications, systems, or components. Simply press ```ctrl + F``` to search for a keyword or go through our Content Menu. Also lookout for tur '⭐' to find our favourites. 
 
 # Contents
 - [Training](#Training "Training")
@@ -43,20 +43,20 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 
 ## Training
 ### Courses and Material
-- [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone.
+- [Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- ⭐ A comprehensive online training course on Android reverse engineering by Maddie Stone.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from Data Types, Registers, the ARM Instruction Set, Memory Instructions, and more
 - [Android Penetration Testing From #TODO](https://www.reverseengineering.courses/course/android-penetration-testing/) - This course will see you develop a baseline knowledge of what is involved in mobile penetration testing along with the specific tools, techniques, and frameworks involved in taking apart and analyzing Android applications.
 
 ### Videos
-- [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
+- [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - ⭐ A video series on reverse engineering basics and reverse engineering Android malware.
 - [LaurieWired Android Reverse Engineering videos](https://www.youtube.com/@lauriewired) - A YouTube channel focusing on Android reverse engineering.
 - [Using Frida To Modify Android Games | Mobile Dynamic Instrumentation](https://www.youtube.com/watch?v=BXtAujoPhQw) - Focusing on Reverse engineering Android applications and on using Frida to dynamically modify Android games.
 
 ### Books
-- [Android Internals: A Confectioner's Cookbook](http://newandroidbook.com/ "Android Internals: A Confectioner's Cookbook") - An in-depth exploration of the inner-workings of Android: In Volume I, we take the perspective of the Power User as we delve into the foundations of Android, filesystems, partitions, boot process, native daemons and services.
+- [Android Internals: A Confectioner's Cookbook](http://newandroidbook.com/ "Android Internals: A Confectioner's Cookbook") - ⭐ An in-depth exploration of the inner-workings of Android: In Volume I, we take the perspective of the Power User as we delve into the foundations of Android, filesystems, partitions, boot process, native daemons and services.
 - [Blue Fox: Arm Assembly Internals and Reverse Engineering](https://www.amazon.co.uk/dp/1119745306) - Provides readers with a solid foundation in Arm assembly internals and reverse-engineering fundamentals as the basis for analysing and securing billions of Arm devices.
 - [Android Software Internals Quick Reference](https://www.amazon.co.uk/Android-Software-Internals-Quick-Reference/dp/1484269136) - This book focuses on easily digestible, useful, and interesting techniques in Java and the Android system. Including: encryption and obfuscation, debugging, and APK extraction.
-- [Mobile Offensive Security Pocket Guide](https://www.amazon.co.uk/Mobile-Offensive-Security-Pocket-Guide/dp/1399921959/ref=sr_1_4) - Focusing on Android and iOS operating systems, the book contains a series of succinct chapters that highlight key information, approaches, and tooling used by mobile penetration testers and offensive security practitioners. 
+- [Mobile Offensive Security Pocket Guide](https://www.amazon.co.uk/Mobile-Offensive-Security-Pocket-Guide/dp/1399921959/ref=sr_1_4) - ⭐ Focusing on Android and iOS operating systems, the book contains a series of succinct chapters that highlight key information, approaches, and tooling used by mobile penetration testers and offensive security practitioners. 
 - [Android Security Internals](https://nostarch.com/androidsecurity) -  Describing Android security architecture from the bottom up, delving into the implementation of major security-related components and subsystems, like Binder IPC, permissions, cryptographic providers, and device administration.
 - [Android Malware Detection with Machine Learning](https://nostarch.com/androidmalwaredetection) -  Examine the machine-learning techniques used to detect malicious apps, the types of classification models that defenders can use, and the various features of malware specimens that can become input to these models.
 
@@ -94,15 +94,15 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [apk-mitm](https://github.com/shroudedcode/apk-mitm) - A CLI application that automatically prepares Android APK files for HTTPS inspection.
 
 #### Dynamic Instrumentation
-- [Frida](https://frida.re/ "Frida") - A dynamic instrumentation toolkit for Android apps that allows for runtime manipulation and analysis of app behaviour.
+- [Frida](https://frida.re/ "Frida") - ⭐ A dynamic instrumentation toolkit for Android apps that allows for runtime manipulation and analysis of app behaviour.
 - Xposed Framework - A powerful framework for hooking and modifying the behaviour of Android apps at runtime, commonly used for reverse engineering and analysis.
-- [Objection](https://github.com/sensepost/objection "Objection") - A runtime mobile exploration tool for Android that provides various features for analysing, manipulating, and bypassing app security controls.
+- [Objection](https://github.com/sensepost/objection "Objection") - ⭐ A runtime mobile exploration tool for Android that provides various features for analysing, manipulating, and bypassing app security controls.
 - [RMS Runtime Mobile Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) - Frida web interface.
 - [FriDump](https://github.com/Nightbringer21/fridump) - A Python script that utilises Frida to dump the memory of a running gadget, such as an app activity.
 - [jnitrace](https://github.com/chame1eon/jnitrace) - A Frida based tool to trace use of the JNI API in Android apps.
 
 ### Decompilers
-- [JADX](https://github.com/skylot/jadx "JADX") - An open-source tool for decompiling and analysing Android APK files into Java source code for reverse engineering and analysis.
+- [JADX](https://github.com/skylot/jadx "JADX") - ⭐ An open-source tool for decompiling and analysing Android APK files into Java source code for reverse engineering and analysis.
 - [Procyon](https://github.com/mstrobel/procyon "Procyon") - Procyon is a suite of Java metaprogramming tools, including a rich reflection API, a LINQ-inspired expression tree API for runtime code generation, and a Java decompiler.
 - [Cfr](https://github.com/leibnitz27/cfr "Cfr") - An open-source Java decompiler that supports decompilation of Android APK files into Java source code, including support for newer Java language features.
 - [FernFlower](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine "FernFlower") - Fernflower is the first actually working analytical decompiler for Java and probably for a high-level programming language in general. 
@@ -110,7 +110,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [DEX2JAR](https://github.com/pxb1988/dex2jar "DEX2JAR") - A tool for converting Android DEX files to JAR files, which can be further analysed using Java decompilers.
 - [JDGui](http://java-decompiler.github.io/) - JD-GUI is a standalone graphical utility that displays Java source codes of “.class” files.
 - [IDA Pro](https://hex-rays.com/ida-pro/ " IDA Pro") - A powerful commercial disassembler and debugger for analysing Android native code.
-- [Ghidra](https://ghidra-sre.org/ "Ghidra") - A free and open-source software reverse engineering (SRE) framework developed by the National Security Agency (NSA) that supports Android analysis.
+- [Ghidra](https://ghidra-sre.org/ "Ghidra") - ⭐ A free and open-source software reverse engineering (SRE) framework developed by the National Security Agency (NSA) that supports Android analysis.
 - JEB Decompiler - A commercial decompiler for Android apps that can decompile APK files into Java source code for analysis.
 - [Radare2](https://rada.re/n/ "Radare2") - A free and open-source reverse engineering framework that supports Android analysis, including disassembly, debugging, and binary analysis.
 - [Androguard](https://github.com/androguard/androguard "Androguard") - An open-source tool for analysing and reverse engineering Android apps, including decompiling APK files, analysing Dalvik bytecode, and more.
