@@ -23,7 +23,7 @@
 
 
 # How to Use
-Awesome-Android-Reverse-Engineering is an amazing list for people who work in taking apart Android applications, systems, or components. Simply press ```ctrl + F``` to search for a keyword or go through our Content Menu. Also lookout for tur '⭐' to find our favourites. 
+Awesome-Android-Reverse-Engineering is an amazing list for people who work in taking apart Android applications, systems, or components. Simply press ```ctrl + F``` to search for a keyword or go through our Content Menu. Also lookout for '⭐' to find our favourites. 
 
 # Contents
 - [Training](#Training "Training")
