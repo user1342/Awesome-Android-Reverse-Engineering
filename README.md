@@ -130,8 +130,8 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [Android Security Documentation](https://source.android.com/docs/security "Android Security Documentation") - Official documentation from Google on Android security, including topics related to reverse engineering.
 - [Android Reverse Engineering Challenges ](https://github.com/apsdehal/awesome-ctf#reverse-engineering "Android Reverse Engineering Challenges ")- A curated list of Android reverse engineering challenges and CTFs (Capture The Flag) for practice.
 - [AndroidXref](http://androidxref.com/) - Open code search for Android source.
-- [APKMirror](https://www.apkmirror.com/) - Repository of AndroidAPKs from sources such as the Play Store and user uploads.
-- [APKPure](https://m.apkpure.com/) - Repository of AndroidAPKs from sources such as the Play Store and user uploads.
+- [APKMirror](https://www.apkmirror.com/) - Repository of Android APKs from sources such as the Play Store and user uploads.
+- [APKPure](https://m.apkpure.com/) - Repository of Android APKs from sources such as the Play Store and user uploads.
 
 ### Case Studies
 - [A Reverse Engineer’s Post-mortem Of The Houseparty Video Chat App](https://www.jamesstevenson.me/a-reverse-engineers-post-mortem-of-the-houseparty-video-chat-app/)
