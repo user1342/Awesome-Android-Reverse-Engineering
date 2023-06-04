@@ -87,6 +87,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [jtrace](http://newandroidbook.com/tools/jtrace.html) - strace for Android - for tracing system-level calls including Binder.
 - [sesearch](https://linux.die.net/man/1/sesearch) - Command line tool to query SELinux policies.
 - [AutoDroid](https://github.com/user1342/AutoDroid) - Tool for mass gathering APKs from a device(s), decompiling, filtering on strings, etc.
+- [Binder Trace](https://github.com/foundryzero/binder-trace) - Binder Trace is a tool for intercepting and parsing Android Binder messages. Think of it as "Wireshark for Binder".
 
 #### Networking
 - [Burp Suite](https://portswigger.net/burp "Burp Suite") - A popular commercial web security testing tool that can be used for analysing network traffic of Android apps for potential security vulnerabilities.
