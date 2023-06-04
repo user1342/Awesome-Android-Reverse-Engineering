@@ -87,7 +87,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [jtrace](http://newandroidbook.com/tools/jtrace.html) - strace for Android - for tracing system-level calls including Binder.
 - [sesearch](https://linux.die.net/man/1/sesearch) - Command line tool to query SELinux policies.
 - [AutoDroid](https://github.com/user1342/AutoDroid) - Tool for mass gathering APKs from a device(s), decompiling, filtering on strings, etc.
-- [Binder Trace](https://github.com/foundryzero/binder-trace) - Binder Trace is a tool for intercepting and parsing Android Binder messages. Think of it as "Wireshark for Binder".
+
 
 #### Networking
 - [Burp Suite](https://portswigger.net/burp "Burp Suite") - A popular commercial web security testing tool that can be used for analysing network traffic of Android apps for potential security vulnerabilities.
@@ -103,6 +103,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [RMS Runtime Mobile Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) - Frida web interface.
 - [FriDump](https://github.com/Nightbringer21/fridump) - A Python script that utilises Frida to dump the memory of a running gadget, such as an app activity.
 - [jnitrace](https://github.com/chame1eon/jnitrace) - A Frida based tool to trace use of the JNI API in Android apps.
+- [Binder Trace](https://github.com/foundryzero/binder-trace) - Binder Trace is a tool for intercepting and parsing Android Binder messages. Think of it as "Wireshark for Binder".
 
 ### Decompilers
 - [JADX](https://github.com/skylot/jadx "JADX") - An open-source tool for decompiling and analysing Android APK files into Java source code for reverse engineering and analysis.
