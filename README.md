@@ -154,5 +154,5 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 ## Contributing
 Your contributions are always welcome! Please read the contribution guidelines first. We  follow the Contributor Covenant Code of Conduct. Please make sure to review and adhere to this code of conduct when contributing.
 
-## Licence <a href="LICENCE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template) </a>
+## Licence <a href="LICENCE"> ![GitHub](https://img.shields.io/github/license/user1342/Awesome-Android-Reverse-Engineering) </a>
 This project is licensed under the MIT License - see the LICENSE.md file for details.
