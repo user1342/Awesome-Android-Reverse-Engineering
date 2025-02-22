@@ -45,7 +45,6 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 ### Courses and Material
 - [☆ Maddie Stone's Android Reverse Engineering Training ](https://www.ragingrock.com/AndroidAppRE/ "Maddie Stone's Android Reverse Engineering Training ")- A comprehensive online training course on Android reverse engineering by Maddie Stone.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from Data Types, Registers, the ARM Instruction Set, Memory Instructions, and more
-- [Android Penetration Testing From #TODO](https://www.reverseengineering.courses/course/android-penetration-testing/) - This course will see you develop a baseline knowledge of what is involved in mobile penetration testing along with the specific tools, techniques, and frameworks involved in taking apart and analyzing Android applications.
 
 ### Videos
 - [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
