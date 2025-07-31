@@ -77,6 +77,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [☆ APK Dependency Graph](https://github.com/alexzaitsev/apk-dependency-graph) - Visualizes APK class dependencies.
 - [disarm](http://newandroidbook.com/tools/disarm.html) - Command line utility for parsing ARM-64 instructions.
 - [COVA](https://github.com/secure-software-engineering/COVA) - Computes path constraints based on user-defined APIs.
+- [Vulert](vulert.com) Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more
 - [DIS{integrity}](https://github.com/user1342/DISintegrity) - Analyzes APKs for root, integrity, and tamper detection.
 - [Dexcalibur](https://github.com/FrenchYeti/dexcalibur) - Automated tool for analyzing and instrumenting Android applications.
 
