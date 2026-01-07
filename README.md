@@ -48,8 +48,8 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 ### Courses and Material
 - [☆ Maddie Stone's Android Reverse Engineering Training](https://www.ragingrock.com/AndroidAppRE/) - A comprehensive online training course on Android reverse engineering by Maddie Stone.
 - [Introduction to Assembly from Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/) - Covering everything from data types, registers, the ARM instruction set, memory instructions, and more.
-- [Reverse Engineering](https://www.notion.so/Reverse-Engineering-8f11869a35fa4832a01896f1b503261f) — A structured guide to Android reverse engineering. Includes step-by-step walkthroughs of decompiling APKs, understanding Dalvik bytecode, using tools like JADX, apktool, and Frida, with practical examples.
-- [Malware Analysis](https://www.notion.so/Malware-Analysis-e1006868cce24a769e0ca4349b87ef31) —A structured guide to Android malware analysis techniques. Covers static and dynamic analysis methods, identification of malicious behaviors, sandboxing approaches, and toolchains useful for dissecting Android malware samples.
+- [Reverse Engineering](https://www.notion.so/Reverse-Engineering-8f11869a35fa4832a01896f1b503261f) - A structured guide to Android reverse engineering. Includes step-by-step walkthroughs of decompiling APKs, understanding Dalvik bytecode, using tools like JADX, apktool, and Frida, with practical examples.
+- [Malware Analysis](https://www.notion.so/Malware-Analysis-e1006868cce24a769e0ca4349b87ef31) - A structured guide to Android malware analysis techniques. Covers static and dynamic analysis methods, identification of malicious behaviors, sandboxing approaches, and toolchains useful for dissecting Android malware samples.
 
 ### Videos
 - [Kristina Balaam Android Reverse Engineering](https://www.youtube.com/@chmodxx) - A video series on reverse engineering basics and reverse engineering Android malware.
