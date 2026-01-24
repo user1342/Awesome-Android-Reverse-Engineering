@@ -105,6 +105,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
   - [☆ FriDump](https://github.com/Nightbringer21/fridump) - Uses Frida to dump memory of running apps.
   - [jnitrace](https://github.com/chame1eon/jnitrace) - Frida-based JNI API tracer.
   - [☆ Binder Trace](https://github.com/foundryzero/binder-trace) - Intercepts and parses Android Binder messages.
+  - [NullKia](https://github.com/bad-antics/nullkia) - Mobile security framework with baseband exploitation, TEE/TrustZone tools, and support for 18 manufacturers.
 
 ### Decompilers
 - [☆ JADX](https://github.com/skylot/jadx) - Decompiles APKs into Java source code.
