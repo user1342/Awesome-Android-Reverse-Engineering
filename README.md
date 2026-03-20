@@ -157,6 +157,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [Broken Droid Factory](https://github.com/user1342/Broken-Droid-Factory) - Generates pseudo-random vulnerable Android apps for training.
 - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer) - CLI tool for signing and zip aligning APKs.
 - [RUNIC tamper detection demo](https://github.com/user1342/RUNIC) - Demo for understanding Android tamper detection and integrity systems.
+- [apkeep](https://github.com/EFForg/apkeep) -  A command-line tool for downloading APK files from various sources 
 
 ## Obfuscation & Anti-Reversing
 - **Obfuscation Tools:**
