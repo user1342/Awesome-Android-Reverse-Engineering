@@ -97,6 +97,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
   - [SSLsplit](https://github.com/droe/sslsplit) - Intercepts and manipulates SSL/TLS encrypted traffic.
   - [MITMProxy](https://mitmproxy.org/) - Man-in-the-middle proxy for analyzing network traffic.
   - [apk-mitm](https://github.com/shroudedcode/apk-mitm) - Prepares APKs for HTTPS inspection.
+  - [rekit](https://github.com/b-erdem/rekit) - Reverse engineering toolkit for mobile APIs. Captures HTTP traffic via Frida hooks (OkHttp, Dio, URLConnection, WebView) without proxy setup, scans decompiled APKs for endpoints, tests TLS fingerprints, and detects bot protection.
 - **Dynamic Instrumentation:**
   - [☆ Frida](https://frida.re/) - Dynamic instrumentation toolkit for runtime manipulation.
   - **Xposed Framework** - For hooking and modifying app behavior at runtime.
