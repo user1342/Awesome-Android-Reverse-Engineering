@@ -92,6 +92,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [sesearch](https://linux.die.net/man/1/sesearch) - Command line tool for querying SELinux policies.
 - [AutoDroid](https://github.com/user1342/AutoDroid) - Mass APK gathering and analysis tool.
 - **Networking:**
+  - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation and a local privacy gateway.
   - [☆ Burp Suite](https://portswigger.net/burp) - Commercial tool for analyzing network traffic of Android apps.
   - [Wireshark](https://www.wireshark.org/) - Open-source network protocol analyzer.
   - [SSLsplit](https://github.com/droe/sslsplit) - Intercepts and manipulates SSL/TLS encrypted traffic.
