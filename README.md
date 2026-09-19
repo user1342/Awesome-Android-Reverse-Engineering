@@ -157,6 +157,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [Broken Droid Factory](https://github.com/user1342/Broken-Droid-Factory) - Generates pseudo-random vulnerable Android apps for training.
 - [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer) - CLI tool for signing and zip aligning APKs.
 - [RUNIC tamper detection demo](https://github.com/user1342/RUNIC) - Demo for understanding Android tamper detection and integrity systems.
+- [HexForge Gateway](https://github.com/boy-offi9-inc/hexforge-gateway) - AI-assisted APK reverse-engineering workspace that orchestrates jadx, apktool, adb, and frida through one API and workflow engine. Runs entirely on-device via Termux, no cloud required.
 
 ## Obfuscation & Anti-Reversing
 - **Obfuscation Tools:**
