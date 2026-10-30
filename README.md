@@ -17,6 +17,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/user1342/Awesome-Android-Reverse-Engineering?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/user1342/Awesome-Android-Reverse-Engineering?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/user1342/Awesome-Android-Reverse-Engineering)
+[![Featured by Awesome REA](https://raw.githubusercontent.com/reacher-z/Awesome-REA/main/assets/featured-by-awesome-rea-inline.svg)](https://github.com/reacher-z/Awesome-REA)
 <br>
 
 </div>
