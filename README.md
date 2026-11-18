@@ -74,6 +74,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [AndroBugs Framework](https://github.com/AndroBugs/AndroBugs_Framework) - Analyzes and scans Android apps for security issues.
 - [☆ imjtool](http://newandroidbook.com/tools/imjtool.html) - Firmware unpacking tool for various vendors and formats.
 - [Android Studio](https://developer.android.com/studio) - Useful for analyzing decompiled apps via an IDE.
+- [REA](https://github.com/morluto/rea) - Local CLI and MCP server for inspecting APK manifests, decompiled methods and references with headless JADX.
 - [☆ APK Dependency Graph](https://github.com/alexzaitsev/apk-dependency-graph) - Visualizes APK class dependencies.
 - [disarm](http://newandroidbook.com/tools/disarm.html) - Command line utility for parsing ARM-64 instructions.
 - [COVA](https://github.com/secure-software-engineering/COVA) - Computes path constraints based on user-defined APIs.
