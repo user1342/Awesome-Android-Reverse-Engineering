@@ -71,6 +71,7 @@ Awesome-Android-Reverse-Engineering is an amazing list for people who work in ta
 - [QARK](https://github.com/linkedin/qark) - An open-source tool for automatic Android app vulnerability scanning.
 - [Quark Engine](https://github.com/quark-engine/quark-engine) - Integrates various tools as Quark Script APIs for mobile security research.
 - [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Supports both static and dynamic analysis for Android app security testing.
+- [FlutterGuard](https://github.com/anasfik/FlutterGuard) - Offline Android app for static inspection of released Flutter APKs: manifest policy, `libapp.so` strings, assets, dependencies and signing. MIT.
 - [AndroBugs Framework](https://github.com/AndroBugs/AndroBugs_Framework) - Analyzes and scans Android apps for security issues.
 - [☆ imjtool](http://newandroidbook.com/tools/imjtool.html) - Firmware unpacking tool for various vendors and formats.
 - [Android Studio](https://developer.android.com/studio) - Useful for analyzing decompiled apps via an IDE.
